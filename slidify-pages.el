@@ -47,6 +47,7 @@ when the mode is first enabled."
   (goto-char (point-min))
   (widen)
   (backward-page)
+  (backward-page)
   (narrow-to-page)
   (slidify-pages--update-mode-line))
 
